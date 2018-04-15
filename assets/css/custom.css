@@ -1,1 +1,122 @@
-/* Put your custom css here */
+/*util classes*/
+.flex{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.margin0{
+	margin: 0;
+}
+
+.padding0{
+	padding: 0;
+}
+
+.center{
+	text-align: center;
+}
+
+.mb10{
+	margin-bottom: 20px;
+}
+
+.mb20{
+	margin-bottom: 20px;
+}
+
+.pb10{
+	padding-bottom: 20px;
+}
+
+.pb20{
+	padding-bottom: 20px;
+}
+
+.mt10{
+	margin-top: 20px;
+}
+
+.mt20{
+	margin-top: 20px;
+}
+
+.pt10{
+	padding-top: 20px;
+}
+
+.pt20{
+	padding-top: 20px;
+}
+
+
+/*custom styles*/
+
+#content{
+	padding: 20px;
+}
+
+.section-title{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+/*slick*/
+.slider {
+    width: 50%;
+    margin: 100px auto;
+}
+
+.slick-slide {
+  margin: 0px 20px;
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+
+.slick-slide {
+  transition: all ease-in-out .3s;
+  opacity: .2;
+}
+
+.slick-active {
+  opacity: .5;
+}
+
+.slick-current {
+  opacity: 1;
+}
+
+.slick-dotted.slick-slider{
+	margin: 20px;
+}
+
+/*fancy separation line*/
+hr {
+    border: 0;
+    height: 0.1em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+}
+
+@media (max-width: 991px){
+
+	.reorder-sm-1{
+		order: 1;
+	}
+
+	.reorder-sm-2{
+		order: 2;
+	}
+
+}

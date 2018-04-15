@@ -807,10 +807,10 @@ if ($('#html5Video').length){
         "align": "centerXY",
         "width": 1280,
         "height": 780,
-        "path": "assets/video/",
-        "filename": "test",
+        "path": "assets/",
+        "filename": "video/test",
         "types": ["mp4"],
-        "poster": "poster.jpg",
+        "poster": "img/loading.gif",
         "responsiveWidth": 1024
     });
 
@@ -842,7 +842,7 @@ if($('.activateAppearAnimation').length){
 | EVENTS TRIGGER AFTER ALL IMAGES ARE LOADED
 |--------------------------------------------------------------------------
 */
-$(window).load(function() {
+$(window).ready(function() {
 
 	"use strict";
     
@@ -924,12 +924,6 @@ $(window).load(function() {
 
 
 
-
-
-
-
-
-
     /**PROCESS ICONS**/
     $('.iconBoxV3 a').hover(function() {
 
@@ -974,6 +968,22 @@ $(window).load(function() {
     		responsive:true
     	});
     }
+
+    $('.slider-for').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        fade: true,
+        asNavFor: '.slider-nav'
+    });
+    $('.slider-nav').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        asNavFor: '.slider-for',
+        dots: true,
+        centerMode: true,
+        focusOnSelect: true
+    });
 
 
 

@@ -16,6 +16,8 @@
 <link rel="stylesheet" type="text/css" href="assets/css/owl.transitions.css">
 <link rel="stylesheet" type="text/css" href="assets/css/owl.theme.css">
 <link rel="stylesheet" type="text/css" href="assets/css/nekoAnim.css">
+<link rel="stylesheet" type="text/css" href="assets/css/slick.css">
+<link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css">
 <link rel="stylesheet" type="text/css" href="assets/font-icons/custom-icons/css/custom-icons.css">
 <link rel="stylesheet" type="text/css" href="assets/css/layout.css">
 <link rel="stylesheet" type="text/css" href="assets/css/colors.css">
@@ -35,49 +37,6 @@
 	<!-- globalWrapper -->
 	<div id="globalWrapper">
 		<header class="navbar-fixed-top">
-			<!-- pre header -->
-			<div id="preHeader" class="hidden-xs">
-				<div class="container">
-					<div class="row">
-						<div class="col-xs-6">
-							<ul class="quickMenu">
-								<li><a href="template-site-map.html" class="linkLeft">Site map</a></li>
-								<li><a href="template-about.html">About us</a></li>
-								<li><a href="template-team.html">Our team</a></li>
-								<li><a href="template-contact.html">Contact</a></li>
-							</ul>
-						</div>
-						<div class="col-xs-6">
-							<div id="contactBloc" class="clearfix">
-								<!-- social icons -->
-								<ul class="socialNetwork">
-									<li><a href="#" class="tips" title="follow me on Facebook"> <i class="icon-facebook-1"></i></a></li>
-									<li> <a href="#" class="tips" title="follow me on Twitter"> <i class="icon-twitter-bird"></i> </a> </li>
-									<li>
-										<a href="#" class="tips" title="follow me on Google+">
-											<i class="icon-gplus-1"></i>
-										</a>
-									</li>
-									<li>
-										<a href="#" class="tips" title="follow me on Linkedin">
-											<i class="icon-linkedin-1"></i>
-										</a>
-									</li>
-									<li>
-										<a href="#" class="tips" title="follow me on Dribble">
-											<i class="icon-dribbble"></i>
-										</a>
-									</li>
-									<!-- social icons -->
-								</ul>
-								<!-- phone -->
-								<span class="contactPhone"><i class="icon-mobile"></i>615.987.1234</span>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- pre header -->
 			<!-- header -->
 			<div id="mainHeader" role="banner">
 				<div class="container">
@@ -91,7 +50,7 @@
 								<span class="icon-bar"></span>
 							</button>
 							<!-- Logo -->
-							<a class="navbar-brand" href="index.html"><img src="images/main-logo.png" alt="HIDEO website template"/></a>
+							<a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="Logo goes here"/></a>
 						</div>
 						<div class="collapse navbar-collapse" id="mainMenu">
 							<!-- Main navigation -->
@@ -100,203 +59,28 @@
 								<li class="primary">
 									<a href="index.html" class="firstLevel active hasSubMenu" >Home</a>
 									<ul class="subMenu">
-										<li><a href="index.html">Default</a></li>
-										<li><a href="home1.html">Revolution Slider</a></li>
-										<li><a href="home2.html">Revolution Slider 2</a></li>
-										<li><a href="home3.html">Camera Slider</a></li>
-										<li><a href="home8.html">Fullscreen Slider</a></li>
-										<li><a href="home4.html">Blog style</a></li>
-										<li><a href="home7.html">No Slider</a></li>
-										<li><a href="home9.html">HTML5 video</a></li>
-										<li class="last"><a href="index-one-page.html">One page</a></li>
-									</ul>
-								</li>
-
-								<li class="sep"></li>
-
-								<li class="primary"> 
-									<a href="features-neko-shortcodes.html" class="firstLevel hasSubMenu" >Features</a>
-									<ul class="subMenu">
-										<li><a href="features-neko-shortcodes.html">Neko shortcodes</a></li>
-										<li><a href="features-animation.html">Neko animations</a></li>
-										<li><a href="features-headers.html">Headers</a></li>
-										<li><a href="features-footers.html">Footers</a></li>
-										<li><a href="features-columns.html">Columns</a></li>
-										<li><a href="features-typography.html">Typography</a></li>
-										<li><a href="features-tables.html">Tables</a></li>
-										<li><a href="features-buttons.html">Buttons</a></li>
-										<li><a href="features-icons.html">Icons</a></li>
-										<li><a href="features-tabs.html">Tabs and accordions</a></li>
-										<li><a href="features-pagination.html">Pagination</a></li>
-										<li><a href="features-labels.html">Labels and badges</a></li>
-										<li><a href="features-alerts.html">Alerts</a></li>
-										<li><a href="features-progress.html">Progress bar</a></li>
-										<li ><a href="features-pricing.html">Pricing tables</a></li>
-
-										<li class="dropdownSubmenu last">
-											<a href="#" class="hasSubMenu">Sub menu</a>
-											<ul class="subMenu">
-												<li><a href="#" class="">Third level 1</a></li>
-												<li><a href="#" class="">Third level 2</a></li>
-												<li class="last"><a href="#" class="">Third level 3</a></li>
-											</ul>
-
-										</li>
-									</ul>
-								</li>
-
-								<li class="sep"></li>
-								
-								<li class="primary nekoMegaMenuTrigger">
-									<a href="#" class="firstLevel hasSubMenu">Mega menu</a>
-
-									<div class="nekoMegaMenu subMenu">
-										<div class="container">	
-											<div class="row">
-												<div class="col-sm-4">
-
-													<div class="megaInner">
-														<h2>Who doesn't love mega menu?</h2>
-														<img alt="" src="images/theme-pics/pic-mega-menu.png" class="img-responsive">
-													</div>
-													
-												</div>
-												<div class="col-sm-4">
-													<div class="megaInner">
-														<h2>Home options2</h2>
-														<ul>
-															<li><a href="index.html">Default</a></li>
-															<li><a href="home1.html">Revolution Slider</a></li>
-															<li><a href="home2.html">Revolution Slider 2</a></li>
-															<li><a href="home3.html">Camera Slider</a></li>
-															<li><a href="home8.html">Fullscreen Slider</a></li>
-														</ul>
-														<h2>fdsfds</h2>
-														<ul>
-															<li><a href="home4.html">Blog style</a></li>
-															<li><a href="home7.html">No Slider</a></li>
-															<li><a href="index-one-page.html">One page</a></li>
-														</ul>
-													</div>
-												</div>
-												<div class="col-sm-4">
-													<div class="megaInner">
-														<h2>Some page templates</h2>
-														<ul>
-															<li><a href="template-menu-left.html">Menu left</a></li>
-															<li><a href="template-sidebar-right.html">Sidebar right</a></li>
-															<li><a href="template-2-sidebars.html">2 sidebars</a></li>
-															<li><a href="template-contact.html">Contact</a></li>
-															<li><a href="template-full-width.html">Full width</a></li>
-															<li><a href="template-plans.html">Our plans</a></li>
-															<li><a href="template-about.html">About us</a></li>
-															<li><a href="template-team.html">Our team</a></li>
-														</ul>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-
-								</li>
-
-								<li class="sep"></li>
-
-								<li class="primary">
-									<a href="template-menu-left.html" class="firstLevel hasSubMenu">Templates</a>
-									<ul class="subMenu">
-										<li class="dropdownSubmenu">
-											<a href="template-contact.html" class="hasSubMenu">Contact</a>
-											<ul class="subMenu">
-												<li><a href="template-contact.html">Contact 1</a></li>
-												<li><a href="template-contact-2.html">Contact 2</a></li>
-												<li><a href="template-contact-3.html">Contact 3</a></li>
-												<li><a href="template-contact-4.html">Contact 4</a></li>
-											</ul>
-										</li>
-										<li class="dropdownSubmenu">
-											<a href="template-about.html" class="hasSubMenu">About us</a>
-											<ul class="subMenu">
-												<li><a href="template-about.html">About us 1</a></li>
-												<li><a href="template-about-2.html">About us 2</a></li>
-												<li><a href="template-about-3.html">About us 3</a></li>
-												<li><a href="template-about-4.html">About us 4</a></li>
-											</ul>
-										</li>
-										<li class="dropdownSubmenu">
-											<a href="template-team.html" class="hasSubMenu">Our team</a>
-											<ul class="subMenu">
-												<li><a href="template-team.html">Team 1</a></li>
-												<li><a href="template-team-2.html">Team 2</a></li>
-												<li><a href="template-team-3.html">Team 3</a></li>
-												<li><a href="template-team-4.html">Team 4</a></li>
-											</ul>
-										</li>
-										<li class="dropdownSubmenu">
-											<a href="template-faq.html" class="hasSubMenu">FAQ</a>
-											<ul class="subMenu">
-												<li><a href="template-faq.html">FAQ 1</a></li>
-												<li><a href="template-faq-2.html">FAQ 2</a></li>
-												
-											</ul>
-										</li>
-										<li><a href="template-full-width.html">Full width</a></li>
-										<li><a href="template-big-header.html">Big page header</a></li>
-										<li><a href="template-plans.html">Our plans</a></li>
-										<li><a href="template-parallax-header.html">Parallax header</a></li>
-										<li><a href="template-services.html">Services</a></li>
-										<li><a href="template-clients.html">Clients</a></li>
-										<li><a href="template-404.html">404 error</a></li>
-										<li><a href="template-site-map.html">Site map</a></li>
-										<li><a href="template-menu-left.html">Menu left</a></li>
-										<li><a href="template-sidebar-right.html">Sidebar right</a></li>
-										<li class="last"><a href="template-2-sidebars.html">2 sidebars</a></li>
+										<li><a href="#recipe">Our Recipe</a></li>
+										<li><a href="#noodles">Noodles</a></li>
+										<li class="last"><a href="#footer">Footer</a></li>
 									</ul>
 								</li>
 
 								<li class="sep"></li>
 
 								<li class="primary">
-									<a href="portfolio-masonery.html" class="firstLevel hasSubMenu">Portfolio</a>
+									<a href="menu.html" class="firstLevel hasSubMenu">Menu</a>
 									<ul class="subMenu">
-										<li><a href="portfolio-masonery.html" >Masonry</a></li>
-										<li class="dropdownSubmenu">
-											<a href="portfolio-2columns.html" class="hasSubMenu">Filterable</a>
-											<ul class="subMenu">
-												<li><a href="portfolio-2columns.html">2 columns</a></li>
-												<li><a href="portfolio-3columns.html">3 columns</a></li>
-												<li class="last"><a href="portfolio-4columns.html">4 columns</a></li>
-											</ul>
-										</li>
-										<li class="dropdownSubmenu">
-											<a href="portfolio-project-image.html" class="hasSubMenu">Single project</a>
-											<ul class="subMenu">
-												<li><a href="portfolio-project-image.html">Image</a></li>
-												<li><a href="portfolio-project-carousel.html">Carousel</a></li>
-												<li class="last"><a href="portfolio-project-video.html">Video</a></li>
-											</ul>
-										</li>
-										<li class="dropdownSubmenu last">
-											<a href="portfolio-project-fullwidth-image.html" class="hasSubMenu last">Single project full width</a>
-											<ul class="subMenu">
-												<li><a href="portfolio-project-fullwidth-image.html">Image</a></li>
-												<li><a href="portfolio-project-fullwidth-carousel.html">Carousel</a></li>
-												<li class="last"><a href="portfolio-project-fullwidth-video.html">Video</a></li>
-											</ul>
-										</li>
+										<li><a href="menu#mushroom">Mushroom Soup</a></li>
+										<li><a href="menu#beef">Beef Soup</a></li>
+										<li><a href="menu#lamb">Lamb Soup</a></li>
+										<li><a href="menu#chicken">Chicken Soup</a></li>
+										<li><a href="menu#sides">Delicious Side Dishes</a></li>
 									</ul>
 								</li>
 
 								<li class="sep"></li>
-								<li class="primary">
-									<a href="blog-home-sidebar-right.html" class="firstLevel hasSubMenu">Blog</a>
-									<ul class="subMenu">
-										<li><a href="blog-home-sidebar-right.html">Blog sidebar right</a></li>
-										<li class="last"><a href="blog-post.html" class="last">Post</a></li>
-									</ul>
-								</li>
-								<li class="sep"></li>
-								<li id="lastMenu" class="last"><a href="template-contact.html" class="firstLevel last">Contact</a></li>
+
+								<li id="lastMenu" class="last"><a href="contact.html" class="firstLevel last">Contact Us</a></li>
 							</ul>
 							<!-- End main navigation -->
 						</div>
@@ -308,7 +92,6 @@
 		<!-- ======================================= content ======================================= -->
 		<section>
 			<div id="html5Video">
-
 				<div class="container vAlignCenter">
 					<div class="row">
 						<div class="col-md-12">
@@ -318,194 +101,184 @@
 					</div>
 				</div>
 			</div>
-			
-				<section id="content">
 
-					<section class="pt40 pb40">
+			<section id="content">
+				<!-- section 1 -->
+				<section id="recipe" class="pt40 pb40">
+
 					<div class="container">
-						<div class="row">
-							<div class="col-md-4">
-								<article class="iconBlocHeading">
-									<i class="icon-thumbs-up iconRounded"></i>
-									<h2>
-										Premium template
-									</h2>
 
-									<p>Nullam sed tortor odio. Suspendisse tincidunt dictum nisi, nec convallis odio lacinia ac. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae. Curabitur auctor.</p>
-									<a href="http://www.little-neko.com/" title="premium website templates" class="btn btn-sm btn-primary" target="_blank">Read more</a> 
-								</article>
+						<div class="row">
+							<div class="col-xs-12 section-title">
+								<h1>Our Secret Recipe</h1>
 							</div>
-							<div class="col-md-4">
-								<article class="iconBlocHeading">
-									<i class="icon-cog iconRounded"></i> 
-									<h2>
-										Easy customization
-									</h2>
-									<p>Nullam sed tortor odio. Suspendisse tincidunt dictum nisi, nec convallis odio lacinia ac. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae. Curabitur auctor.</p>
-									<a href="http://www.little-neko.com/" title="premium website templates" class="btn btn-sm btn-primary" target="_blank">Read more</a> 
-								</article>
+						</div>
+
+						<div class="row">
+							<div class="col-md-6" data-nekoanim="fadeInLeftBig" data-nekodelay="200">
+								<img src="assets/img/lamb.jpeg" alt="Lamp Soup" class="img-responsive" />
 							</div>
-							<div class="col-md-4">
-								<article class="iconBlocHeading">
-									<i class="icon-th-large iconRounded"></i> 
-									<h2>
-										Fully responsive
-									</h2>
-									<p>Nullam sed tortor odio. Suspendisse tincidunt dictum nisi, nec convallis odio lacinia ac. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae. Curabitur auctor.</p>
-									<a href="http://www.little-neko.com/" title="premium website templates" class="btn btn-sm btn-primary" target="_blank">Read more</a> 
-								</article>
+
+							<div class="col-md-6 pt40">
+								<h1>This is Lamp soup step 1</h1>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+									consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+									cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+									proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+								</p>
+							</div>
+						</div>
+
+						<hr />
+
+						<div class="row flex">
+
+							<div class="col-md-6 col-xs-12 pt40 reorder-sm-2">
+								<h1>This is Lamp soup step 2</h1>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+									consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+									cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+									proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+								</p>
+							</div>
+
+							<div class="col-md-6 col-xs-12 reorder-sm-1" data-nekoanim="fadeInLeftBig" data-nekodelay="200">
+								<img src="assets/img/beef.jpeg" alt="Lamp Soup" class="img-responsive" />
+							</div>
+						</div>
+
+						<hr/>
+
+						<div class="row">
+							<div class="col-md-6" data-nekoanim="fadeInLeftBig" data-nekodelay="200">
+								<img src="assets/img/chicken.jpeg" alt="Lamp Soup" class="img-responsive" />
+							</div>
+
+							<div class="col-md-6 pt40">
+								<h1>This is Lamp soup step 3</h1>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+									consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+									cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+									proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+								</p>
+							</div>
+						</div>
+					</div>
+
+				</section>
+				<!-- section 1 -->
+
+				<hr />
+
+				<section id="noodles">
+					<div class="container">
+
+						<div class="row">
+							<div class="col-xs-12 section-title">
+								<h1>Dishes</h1>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="slider-for">
+								<div>
+									<img src="assets/img/beef.jpeg" alt="beef Soup" class="img-responsive" style="float: left;width: 50%;height: auto;margin-right: 20px;" />
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+								</div>
+								<div>
+									<img src="assets/img/chicken.jpeg" alt="chicken Soup" class="img-responsive" style="float: left;width: 50%;height: auto;margin-right: 20px;" />
+									<p>Sed ut egestas risus. Pellentesque pulvinar orci sed erat lacinia, in dapibus odio imperdiet. Suspendisse sed venenatis nunc, nec facilisis sem. In metus eros, tincidunt sit amet feugiat eu, imperdiet pellentesque dolor. Donec vel sagittis lectus, id gravida ex. Nunc quis viverra sapien. Duis vehicula felis eget orci ultrices, at rutrum mauris volutpat. Proin eget commodo leo, vel euismod tellus.</p>
+
+									<p>Phasellus vitae ipsum dapibus, tincidunt metus mollis, hendrerit lectus. Curabitur at aliquam ex. Integer turpis magna, commodo sollicitudin velit eu, ultricies bibendum orci. Proin faucibus velit ac sapien scelerisque convallis. Vivamus dignissim orci orci, sed ultrices sem sollicitudin ac. Vestibulum ullamcorper eget sem quis euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Etiam orci turpis, maximus scelerisque leo at, iaculis suscipit ex. Sed eros ligula, mattis ut velit in, gravida rutrum justo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque lobortis venenatis risus, ac finibus erat rhoncus id.</p>
+								</div>
+								<div>
+									<img src="assets/img/lamb.jpeg" alt="lamb Soup" class="img-responsive" style="float: left;width: 50%;height: auto;margin-right: 20px;" />
+									<p>Mauris porttitor placerat pellentesque. Morbi dapibus lacus sit amet urna pharetra iaculis. Donec faucibus enim vel leo euismod fringilla. Aenean venenatis ex id aliquam consequat. Pellentesque bibendum porta lacinia. Nullam et erat purus. Donec et leo non ante condimentum laoreet. Curabitur a nulla eu neque aliquet pellentesque. Donec sit amet eros pretium, semper est eget, venenatis quam.</p>
+
+									<p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum lacinia et mi eu iaculis. Curabitur ultrices mollis arcu, eu rhoncus sem cursus sit amet. Ut lectus lectus, auctor eu bibendum eu, aliquam nec augue. In sollicitudin porta dictum. Etiam et neque vestibulum, posuere erat eu, sagittis felis. Integer ut ante ornare lorem suscipit fermentum. Suspendisse in nulla vitae neque mollis ultrices ac ac dolor. Proin nec mauris tempor, scelerisque turpis a, dignissim neque. Suspendisse non tempor elit. Mauris pharetra, neque quis porta aliquam, justo mauris suscipit purus, sit amet tristique odio metus a mauris.</p>
+								</div>
+								<div>
+									<img src="assets/img/mushroom.jpeg" alt="mushroom Soup" class="img-responsive" style="float: left;width: 50%;height: auto;margin-right: 20px;" />
+									<p>Curabitur sed convallis ligula, id laoreet mauris. Integer tincidunt elit non nibh ultrices, id porta magna dignissim. Vivamus euismod nibh eget faucibus malesuada. In hac habitasse platea dictumst. Suspendisse sed laoreet risus. Sed eget varius leo, quis molestie ipsum. Quisque eget arcu nec urna finibus bibendum aliquet at ex. Vivamus lacinia quam diam, a aliquet diam lacinia in. Vestibulum cursus felis ac purus dapibus, ut auctor mauris pharetra.</p>
+
+									<p>Quisque ut egestas mauris. Curabitur in fermentum lorem, pharetra dictum nibh. Praesent eros erat, auctor nec tempus sed, lacinia ornare ex. Curabitur posuere eros mi, eu vehicula massa aliquam ullamcorper. Vestibulum congue nulla vitae nisl efficitur, eu blandit leo pharetra. Ut auctor augue enim, ut consequat justo sodales et. Proin sollicitudin sollicitudin sapien. Donec sem ipsum, fringilla ut faucibus ac, mollis non quam. Quisque ornare, erat eu aliquet lobortis, velit urna mattis magna, at mollis tellus erat quis tellus. Sed eget magna diam. Maecenas volutpat nunc sed tortor porttitor, nec interdum magna iaculis. Ut congue, libero ut euismod blandit, felis leo tristique nulla, id faucibus risus risus eget justo. Vestibulum mauris elit, interdum et convallis sit amet, placerat sit amet turpis.</p>
+
+
+								</div>
+								<!-- <div><img src="assets/img/chicken.jpeg" alt="Lamp Soup" class="img-responsive" /></div>
+								<div><img src="assets/img/lamb.jpeg" alt="Lamp Soup" class="img-responsive" /></div>
+								<div><img src="assets/img/mushroom.jpeg" alt="Lamp Soup" class="img-responsive" /></div> -->
+							</div>
+							<div class="slider-nav">
+								<div><img src="assets/img/beef.jpeg" alt="Lamp Soup" class="img-responsive" /></div>
+								<div><img src="assets/img/chicken.jpeg" alt="Lamp Soup" class="img-responsive" /></div>
+								<div><img src="assets/img/lamb.jpeg" alt="Lamp Soup" class="img-responsive" /></div>
+								<div><img src="assets/img/mushroom.jpeg" alt="Lamp Soup" class="img-responsive" /></div>
 							</div>
 						</div>
 					</div>
 				</section>
 
+				<!-- team -->
 
-
-					<!-- section 1 -->
-					<section class="pt40 pb40">
-						<div class="container">
-							<div class="row">
-								<div class="col-md-6" data-nekoanim="fadeInLeftBig" data-nekodelay="200">
-									<img src="images/theme-pics/flat-mobile.png" alt="Hideo, mobile first template" class="img-responsive" />
-								</div>
-
-								<div class="col-md-6 pt40">
-									<h1>Mobile first by design</h1>
-									<p>
-										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-										quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-										consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-										cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-										proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-									</p>
-								</div>
+				<!-- section 2 -->
+				<section class="pt40 pb40">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-5 col-md-offset-1 pt40">
+								<h1>Easy to use</h1>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+									consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+									cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+									proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+								</p>
+							</div>
+							<div class="col-md-6" data-nekoanim="fadeInRightBig" data-nekodelay="300">
+								<img src="images/theme-pics/flat-laptop.png" alt="flat mobile devices" class="img-responsive"/>
 							</div>
 						</div>
-
-					</section>
-					<!-- section 1 -->
-
-					<!-- team -->
-
-					<section id="team5" class="pt40 pb40 color1">
-
-						<div class="container">
-							<div class="row"> 
-								<div class="col-md-12 mb30 text-center">
-									<h1>Meet our team</h1>
-									<p class="subTitle">
-										The Duchess took her choice, and was gone in a moment. 'Let's go on with the game,'<br/> the Queen said to Alice; and Alice was too much frightened to say a word, but slowly followed her back to the croquet-ground.
-									</p>
-
-
-								</div>
-								<section class="col-md-12">
-									<div class="row mb15">
-										<div class="col-sm-3" data-nekoanim="fadeInUp" data-nekodelay="100">
-											<article>
-												<div><img src="images/team/team-corporate-1.jpg" alt="" class="img-responsive"></div>
-												<div class="boxContent text-center">
-													<h3>Janice Rand</h3>
-													<p>Executive Director</p>
-												</div>
-											</article>
-										</div>
-										<div class="col-sm-3" data-nekoanim="fadeInUp" data-nekodelay="300">
-											<article>
-												<div><img src="images/team/team-corporate-2.jpg" alt="" class="img-responsive"></div>
-												<div class="boxContent text-center">
-													<h3>Rick Deckard</h3>
-													<p>Salesman</p>
-												</div>
-											</article>
-										</div>
-										<div class="col-sm-3" data-nekoanim="fadeInUp" data-nekodelay="600">
-											<article>
-												<div><img src="images/team/team-corporate-3.jpg" alt="" class="img-responsive"></div>
-												<div class="boxContent text-center">
-													<h3>Christine Chapel</h3>
-													<p>Graphic designer</p>
-												</div>
-											</article>
-										</div>
-										<div class="col-sm-3" data-nekoanim="fadeInUp" data-nekodelay="600">
-											<article>
-												<div><img src="images/team/team-corporate-4.jpg" alt="" class="img-responsive"></div>
-												<div class="boxContent text-center">
-													<h3>Leon Kowalski</h3>
-													<p>Programmer</p>
-												</div>
-											</article>
-										</div>
-									</div>
-								</section>
-
-
-							</div>
-						</div>
-
-					</section>
-
-					<!-- team -->
-
-					<!-- section 2 -->
-					<section class="pt40 pb40">
-						<div class="container">
-							<div class="row">
-								<div class="col-md-5 col-md-offset-1 pt40">
-									<h1>Easy to use</h1>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-										quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-										consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-										cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-										proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-									</p>
-								</div>
-								<div class="col-md-6" data-nekoanim="fadeInRightBig" data-nekodelay="300">
-									<img src="images/theme-pics/flat-laptop.png" alt="flat mobile devices" class="img-responsive"/>
-								</div>
-							</div>
-						</div>
+					</div>
+				
 					
-						
-					</section>
-					<!-- section 2 -->
-					
-					<section id="projectQuoteSection" class="pt40 pb40 color2">
-						<div class="container">
-							<div class="row"> 
-								<div class="col-md-12 mb30 text-center" data-nekoanim="fadeInDown" data-nekodelay="300">
-									<h1>Hideo is the template you need for your next project</h1>
-									<p>
-										Spread the word :)
-									</p>
+				</section>
+				<!-- section 2 -->
+				
+				<section id="projectQuoteSection" class="pt40 pb40 color2">
+					<div class="container">
+						<div class="row"> 
+							<div class="col-md-12 mb30 text-center" data-nekoanim="fadeInDown" data-nekodelay="300">
+								<h1>Hideo is the template you need for your next project</h1>
+								<p>
+									Spread the word :)
+								</p>
 
-								</div>
-								<div class="col-md-12 text-center">
+							</div>
+							<div class="col-md-12 text-center">
 
-									<div id="sharemeBtn" data-url="" data-title="Awesome html5 css3 premium template" data-desc="Check out this great #themeforest item HIDEO HTML5, CSS3, Bootstrap website template" data-network="facebook,twitter" data-label="share me" data-size="btn-lg">
+								<div id="sharemeBtn" data-url="" data-title="Awesome html5 css3 premium template" data-desc="Check out this great #themeforest item HIDEO HTML5, CSS3, Bootstrap website template" data-network="facebook,twitter" data-label="share me" data-size="btn-lg"></div>
 
-								</div>
 							</div>
 						</div>
-					</section>
-
-					<!-- content -->
+					</div>
 				</section>
 			</section>
+			<!-- content -->
 			<!-- footer -->
 			<footer id="footerWrapper">
 				<section id="mainFooter">
 					<div class="container">
 						<div class="row">
-							<div class="col-sm-6">
-								<div class="footerWidget">
-									<img src="images/neko-logo.png" alt="latest Little Neko news" id="footerLogo">
-									<p><a href="http://www.little-neko.com" title="Little Neko, website template creation">Little Neko</a> is a web design and development studio. We build responsive HTML5 and CSS3 templates, integrating best web design practises and up-to-date web technologies to create great user experiences. We love what we do and we hope you too ! </p>
-								</div>
-							</div>
 
 							<div class="col-sm-3">
 								<div class="footerWidget">
@@ -513,9 +286,9 @@
 									<h3>Little NEKO</h3>
 									<address>
 										<p>
-											<i class="icon-location"></i>&nbsp;2001 Space Odyseey<br>
-											Houston, Texas - USA <br>
-											<i class="icon-phone"></i>&nbsp;256.478.3252 <br>
+											<i class="icon-location"></i>&nbsp;<a>887 W braodway<br>
+											Vancouver BC <br>
+											<i class="icon-phone"></i>&nbsp;<a href="tel:6048763103">604-876-3103</a><br>
 											<i class="icon-mail-alt"></i>&nbsp;<a href="mailto:little@little-neko.com">little@little-neko.com</a>
 										</p>
 									</address>
@@ -537,17 +310,6 @@
 						</div>
 					</div>
 				</section>
-
-				<section  id="footerRights">
-					<div class="container">
-						<div class="row">
-							<div class="col-md-12">
-								<p>Copyright © 2012 <a href="http://www.little-neko.com" target="blank">Little NEKO</a> / All rights reserved.</p>
-							</div>
-
-						</div>
-					</div>
-				</section>
 			</footer>
 			<!-- End footer -->
 
@@ -557,13 +319,14 @@
 	================================================== -->
 
 	<script src="assets/js/respond.min.js"></script>
-	<script src="assets/js/jquery-1.10.2.min.js"></script>
+	<script src="assets/js/jquery-3.3.1.min.js"></script>
 	<script src="assets/js/jquery-ui-1.8.23.custom.min.js"></script>
 	<script src="assets/js/bootstrap.js"></script>
 	<script src="assets/js/jquery.easing.1.3.js"></script>
 	<script src="assets/js/owl.carousel.min.js"></script>
 	<script src="assets/js/jquery.magnific-popup.min.js"></script>
 	<script src="assets/js/jquery.isotope.min.js"></script>
+	<script src="assets/js/slick.min.js"></script>
 	<script src="assets/js/jquery.backgroundvideo-modified.js"></script>
 	<script src="assets/js/jquery.form.js"></script>
 	<script src="assets/js/jquery.validate.min.js"></script>
