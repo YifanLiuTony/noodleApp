@@ -802,7 +802,9 @@ if($('#videoBg').length){
 
 
 if ($('#html5Video').length){
-
+    var windowHeight = $(window).height();
+    console.log(windowHeight);
+    $('#html5Video').css('height',windowHeight+'px');
     var videobackground = new $.backgroundVideo($('#html5Video'), {
         "align": "centerXY",
         "width": 1280,
@@ -811,7 +813,7 @@ if ($('#html5Video').length){
         "filename": "video/test",
         "types": ["mp4"],
         "poster": "img/loading.gif",
-        "responsiveWidth": 1024
+        "responsiveWidth": 991
     });
 
 }
@@ -870,7 +872,7 @@ $(window).ready(function() {
         // initialize isotope
         
         $container.isotope({
-        	layoutMode: 'sloppyMasonry',
+        	layoutMode: 'masonry',
         	itemSelector: '.isotopeItem',
             resizable: false, // disable normal resizing
             masonry: {
@@ -910,7 +912,7 @@ $(window).ready(function() {
         });
         
         
-        $(window).smartresize(function(){
+        $(window).resize(function(){
         	$container.isotope({
                 // update columnWidth to a percentage of container width
                 masonry: {
@@ -974,6 +976,7 @@ $(window).ready(function() {
         slidesToScroll: 1,
         arrows: false,
         fade: true,
+        adaptiveHeight: true,
         asNavFor: '.slider-nav'
     });
     $('.slider-nav').slick({

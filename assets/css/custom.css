@@ -51,14 +51,53 @@
 
 /*custom styles*/
 
+body.index{
+	padding-top: 0;
+}
+
 #content{
 	padding: 20px;
+}
+
+.navbar-fixed-top{
+	position: fixed;
 }
 
 .section-title{
 	text-align: center;
 	margin-bottom: 20px;
 }
+
+.section-title h1{
+    font-family: "Josefin Sans", sans-serif;
+    letter-spacing: 2px;
+}
+
+#contact address {
+    line-height: 26px;
+}
+
+#address-icon {
+    display: inline;
+    float: left;
+}
+a:hover {
+    color: #00b2cd;
+    text-decoration: none;
+}
+#footerWrapper div{
+	margin-bottom: 0;
+}
+#video-text-box{
+    background: rgba(255, 255, 255, 0.75);
+    padding: 20px;
+}
+#video-text-box h1,
+#video-text-box h2{
+    color: black;
+    font-weight: 300;
+}
+
 
 /*slick*/
 .slider {

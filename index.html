@@ -8,6 +8,8 @@
 
 <link rel="icon" type="image/png" href="img/logo.png" />
 <link href="http://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
 <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
@@ -31,7 +33,7 @@
 </style>
 
 </head>
-<body class="activateAppearAnimation">
+<body class="index activateAppearAnimation">
 <!-- Primary Page Layout 
 	================================================== -->
 	<!-- globalWrapper -->
@@ -68,7 +70,8 @@
 								<li class="sep"></li>
 
 								<li class="primary">
-									<a href="menu.html" class="firstLevel hasSubMenu">Menu</a>
+									<a href="menu.html" class="firstLevel">Menu</a>
+									<!-- <a href="menu.html" class="firstLevel hasSubMenu">Menu</a>
 									<ul class="subMenu">
 										<li><a href="menu#mushroom">Mushroom Soup</a></li>
 										<li><a href="menu#beef">Beef Soup</a></li>
@@ -94,9 +97,9 @@
 			<div id="html5Video">
 				<div class="container vAlignCenter">
 					<div class="row">
-						<div class="col-md-12">
-						<h1> Self hosted HTML5 video</h1>
-						<h2>Showcase your work with Hideo!</h2>
+						<div class="col-md-4 col-md-offset-4" id="video-text-box">
+						<h1> Sample title </h1>
+						<h2>Some exciting subtitle!</h2>
 					</div>
 					</div>
 				</div>
@@ -104,7 +107,7 @@
 
 			<section id="content">
 				<!-- section 1 -->
-				<section id="recipe" class="pt40 pb40">
+				<section id="recipe" class="pt40">
 
 					<div class="container">
 
@@ -180,7 +183,7 @@
 				<hr />
 
 				<section id="noodles">
-					<div class="container">
+					<div class="container" data-nekoanim="fadeInUp" data-nekodelay="200">
 
 						<div class="row">
 							<div class="col-xs-12 section-title">
@@ -193,6 +196,7 @@
 								<div>
 									<img src="assets/img/beef.jpeg" alt="beef Soup" class="img-responsive" style="float: left;width: 50%;height: auto;margin-right: 20px;" />
 									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+									<p>Mauris porttitor placerat pellentesque. Morbi dapibus lacus sit amet urna pharetra iaculis. Donec faucibus enim vel leo euismod fringilla. Aenean venenatis ex id aliquam consequat. Pellentesque bibendum porta lacinia. Nullam et erat purus. Donec et leo non ante condimentum laoreet. Curabitur a nulla eu neque aliquet pellentesque. Donec sit amet eros pretium, semper est eget, venenatis quam.</p>
 								</div>
 								<div>
 									<img src="assets/img/chicken.jpeg" alt="chicken Soup" class="img-responsive" style="float: left;width: 50%;height: auto;margin-right: 20px;" />
@@ -228,83 +232,33 @@
 					</div>
 				</section>
 
-				<!-- team -->
-
-				<!-- section 2 -->
-				<section class="pt40 pb40">
-					<div class="container">
-						<div class="row">
-							<div class="col-md-5 col-md-offset-1 pt40">
-								<h1>Easy to use</h1>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-									consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-									cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-									proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-								</p>
-							</div>
-							<div class="col-md-6" data-nekoanim="fadeInRightBig" data-nekodelay="300">
-								<img src="images/theme-pics/flat-laptop.png" alt="flat mobile devices" class="img-responsive"/>
-							</div>
-						</div>
-					</div>
-				
-					
-				</section>
-				<!-- section 2 -->
-				
-				<section id="projectQuoteSection" class="pt40 pb40 color2">
-					<div class="container">
-						<div class="row"> 
-							<div class="col-md-12 mb30 text-center" data-nekoanim="fadeInDown" data-nekodelay="300">
-								<h1>Hideo is the template you need for your next project</h1>
-								<p>
-									Spread the word :)
-								</p>
-
-							</div>
-							<div class="col-md-12 text-center">
-
-								<div id="sharemeBtn" data-url="" data-title="Awesome html5 css3 premium template" data-desc="Check out this great #themeforest item HIDEO HTML5, CSS3, Bootstrap website template" data-network="facebook,twitter" data-label="share me" data-size="btn-lg"></div>
-
-							</div>
-						</div>
-					</div>
-				</section>
 			</section>
 			<!-- content -->
 			<!-- footer -->
 			<footer id="footerWrapper">
-				<section id="mainFooter">
+				<section id="mainFooter footerWidget">
 					<div class="container">
 						<div class="row">
 
-							<div class="col-sm-3">
-								<div class="footerWidget">
-
-									<h3>Little NEKO</h3>
-									<address>
-										<p>
-											<i class="icon-location"></i>&nbsp;<a>887 W braodway<br>
-											Vancouver BC <br>
-											<i class="icon-phone"></i>&nbsp;<a href="tel:6048763103">604-876-3103</a><br>
-											<i class="icon-mail-alt"></i>&nbsp;<a href="mailto:little@little-neko.com">little@little-neko.com</a>
-										</p>
-									</address>
-								</div>
+							<div class="footer-title col-xs-12">
+								<h3 style="display: inline-block;">One Noodle</h3>
+								<a href="#" class="fa fa-twitter tips iconRounded" title="follow me on Instagram" style="display: inline-block; margin-left: 20px;"></a>
 							</div>
-							<div class="col-sm-3">
-								<div class="footerWidget">
-									<h3>Follow us, we are social</h3>
-									<ul class="socialNetwork">
-										<li><a href="#" class="tips" title="follow me on Facebook"><i class="icon-facebook-1 iconRounded"></i></a></li>
-										<li><a href="#" class="tips" title="follow me on Twitter"><i class="icon-twitter-bird iconRounded"></i></a></li>
-										<li><a href="#" class="tips" title="follow me on Google+"><i class="icon-gplus-1 iconRounded"></i></a></li>
-										<li><a href="#" class="tips" title="follow me on Linkedin"><i class="icon-linkedin-1 iconRounded"></i></a></li>
-										<li><a href="#" class="tips" title="follow me on Dribble"><i class="icon-dribbble iconRounded"></i></a></li>
-									</ul>     
-								</div>
+							<div class="col-sm-6" id="contact">
+							        <!-- <div id="address-icon">
+							            <i class="icon-location"></i><br><br>
+							        </div>
+							        <a href="http://www.maps.google.com/?q=One+Noodle" id="address" target="blank">
+							        	&nbsp;887 W braodway<br/>
+										&nbsp;Vancouver BC 
+									</a>
+									<br/> -->
+						        	<i class="icon-location"></i><a href="http://www.maps.google.com/?q=One+Noodle" id="address" target="blank">&nbsp;887 W braodway, Vancouver BC</a><br>
+							        <i class="icon-clock-1"></i><span style="color: #3d3d3d;"> Open 7 days a week: 11 am - 10 pm</span><br>
+							</div>
+							<div class="col-sm-6" id="contact-right-list">
+						        <i class="icon-phone"></i><a href="tel:6048763103">&nbsp;(604) 876-3103</a><br>
+						        <i class="icon-mail-alt"></i><a href="mailto:little@little-neko.com">&nbsp;emailgoeshere</a>
 							</div>
 
 						</div>

@@ -1470,7 +1470,7 @@ ul.quickMenu li a.linkLeft {
 /* FOOTER 
 ================================================== */
 
-footer{padding:44px 0 0 0;}
+footer{padding:44px 0;}
 #footerLogo {margin-bottom: 22px;}
 #footerRights {padding:22px 0;margin-top:22px; text-align: center; font-size:10px;}
 .footerWidget {margin-bottom: 22px}
@@ -1851,7 +1851,6 @@ nav#subnav{padding:0;}
 #big-video-vid_html5_api {}
 
 #html5Video {
-	height:200px;
 	overflow:hidden;
 	position:relative;
 	-webkit-transform: translate3d(0, 0, 0);
@@ -1891,14 +1890,11 @@ nav#subnav{padding:0;}
 @media(min-width:768px){
 	
 	.formatIcon i {font-size: 33px;}
-	#html5Video { height:350px;}
 }
 @media(min-width:992px){
-	#html5Video { height:400px;}
 }
 
 @media(min-width:1200px){
-	#html5Video { height:450px;}
 
 }
 
